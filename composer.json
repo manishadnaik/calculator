@@ -1,0 +1,19 @@
+{
+    "name": "manisha/calculator",
+    "description": "Simple command line calculator.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Manisha Naik",
+            "email": "naikdmanisha@gmail.com"
+        }
+    ],
+    "autoload-dev": {
+        "classmap": [
+            "src"
+        ]
+    }
+}
