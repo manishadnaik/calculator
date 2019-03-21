@@ -10,9 +10,9 @@ class CalculatorService
      * Function to perform sum operation on given input
      * 
      * @param string $input The string og numbers passed to perform sum
-     * @return string
+     * @return integer
      */
-    public function sum(string $input): string 
+    public function sum(string $input): int 
     {
         $numberArray = $this->prepareNumbers($input);
 
